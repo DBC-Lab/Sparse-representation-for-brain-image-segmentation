@@ -1,5 +1,5 @@
 # Sparse-representation-for-brain-image-segmentation
-Please download from this link: https://drive.google.com/file/d/1KqSyYaJrWzcVrIQorRi1MZ-tKldRa3KO/view?usp=sharing
+Due to the large file size, we cannot upload source code/data to github but can access through this link: https://drive.google.com/file/d/1KqSyYaJrWzcVrIQorRi1MZ-tKldRa3KO/view?usp=sharing
 
 Generally, we assume the similar patches share the same labels. Based on this assumption, we employ the sparse representation to measure the patch similarity between the target patch and the template patches, then propagate the labels from the templates to the target image. In this source code, the target image is test.img, the atlas intensity image are named as atlas1, …, atlas7 and their corresponding labels are names as atlas1_label, …, atlas7_label. I have already aligned all the atlases to the target image space based on the intensity image (Note that atlas images and labels are in the Atlas folder). 
 Installation: 
